@@ -1,0 +1,35 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product"
+    ]
+  },
+   "flex-layout.row#product": {
+    "children": [
+      "product-images",
+      "flex-layout.col#product"
+    ],
+    "props": {
+      "showTitle": true,
+      "blockClass": "productItem"
+    }
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "maxHeight": 400
+    }
+  },
+  "flex-layout.col#product": {
+    "children": [
+      "product-name",
+      "product-description",
+      "shipping-simulator"
+    ]
+  },
+  "product-name": {
+    "props": {
+      "blockClass": "productName"
+    }
+  }
+}

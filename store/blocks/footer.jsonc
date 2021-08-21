@@ -1,0 +1,89 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "props":{"blockClass":"footerMenu"},
+    "children": [
+      "vtex.menu@2.x:menu#footermenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#footermenu": {
+    "props": {
+      "items": [
+
+        {
+          "id": "menu-item-perfil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": false,
+            "tagTitle": "Perfil",
+            "text": "PERFIL"
+        }
+      },
+
+        {
+          "id": "menu-item-Desafios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": false,
+            "tagTitle": "Desafios",
+            "text": "DESAFIOS"
+        }
+      },
+        {
+          "id": "menu-item-loja",
+          "type": "custom",
+          "iconId": "profile",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "loja",
+            "text": "LOJA"
+          },
+          "iconProps": {
+            "id": "profile",
+            "size": 16,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://api.whatsapp.com/send?phone=5519995961616&text=Entre%20em%20conosco!!!",
+            "noFollow": false,
+            "tagTitle": "Suporte",
+            "text": "SUPORTE"
+          }
+          
+        }
+        
+      ]
+    }
+  }
+}
+  

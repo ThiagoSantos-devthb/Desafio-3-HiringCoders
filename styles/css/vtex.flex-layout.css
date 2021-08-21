@@ -1,0 +1,6 @@
+.flexRow--productItem {
+  margin: 2rem 0;
+}
+.flexRow--bannerContainer {
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.brandName {
+  color: aliceblue;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.sellingPrice {
+  color: #59ff00;
+}
+.buyButtonText {
+  color: #3C3C3C;
+}
+.imageContainer {
+  background-color: white;
+  /* padding: 1rem; */
+}

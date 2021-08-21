@@ -1,0 +1,29 @@
+{
+    "slider-layout#banner": { 
+        "props": { 
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "showNavigationArrows": "desktopOnly",
+          "fullWidth": false,
+          "arrowSize": "12px",
+          "blockClass": "banner"
+        },
+        "children": ["image#1", "image#2"]
+      },
+      "image#1": { 
+        "props": { 
+          "src": "assets/banners/banner-wood_sport.png",
+          "blockClass": "imageBanner"
+        }
+      },
+      "image#2": { 
+        "props": { 
+          "src": "assets/banners/banner-grandes_guerreiros.png",
+          "blockClass": "imageBanner"
+        }
+      }
+}
